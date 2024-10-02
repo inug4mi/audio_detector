@@ -11,7 +11,7 @@ https://www.ee.columbia.edu/~dpwe/papers/Wang03-shazam.pdf
 
 ## How to do it (Step by Step)
 
-### Fase 1:
+### Phase 1:
 
 1. Load audio files in wav format or mp3.
 2. Obtain audio's spectogram
@@ -31,4 +31,4 @@ The sampling rate determines the quality of the audio; A higher frequency means 
 
 The number of channels affects how the sound is perceived. A stereo file can give the feeling of space and direction, while a mono file sounds more focused.
 
-### Fase 2:
+### Phase 2:
