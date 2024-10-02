@@ -17,18 +17,18 @@ https://www.ee.columbia.edu/~dpwe/papers/Wang03-shazam.pdf
 2. Obtain audio's spectogram
 3. Obtain constellation map from spectogram
 
-Para cargar archivos de audio en C++, puedes usar bibliotecas como libsndfile, FMOD, SDL, etc. Al cargar un archivo, obtendrás información sobre la frecuencia de muestreo, el número de canales y el número de muestras
+To load audio files in C++, you can use libraries like libsndfile, FMOD, SDL, etc. When you upload a file, you will get information about the sample rate, number of channels, and number of samples
 
-**Valores de Audio:**
+**Audio Values:**
 
-En el caso de un archivo WAV, cada número en el buffer (en este caso, buffer[]) representa la amplitud del sonido en un instante de tiempo. Un valor de 0 indica el silencio, valores positivos indican el movimiento hacia arriba (pico) y negativos indican el movimiento hacia abajo (valle).
+In the case of a WAV file, each number in the buffer (in this case, buffer[]) represents the amplitude of the sound at a moment in time. A value of 0 indicates silence, positive values ​​indicate upward movement (peak), and negative values ​​indicate downward movement (valley).
 
-**Frecuencia de Muestreo:**
+**Sampling Frequency:**
 
-La frecuencia de muestreo determina la calidad del audio; una frecuencia más alta significa más detalles del sonido, mientras que una frecuencia más baja puede resultar en pérdida de calidad.
+The sampling rate determines the quality of the audio; A higher frequency means more sound details, while a lower frequency can result in loss of quality.
 
-**Número de Canales:**
+**Number of Channels:**
 
-El número de canales afecta cómo se percibe el sonido. Un archivo estéreo puede dar la sensación de espacio y dirección, mientras que un archivo mono suena más centrado.
+The number of channels affects how the sound is perceived. A stereo file can give the feeling of space and direction, while a mono file sounds more focused.
 
 ### Fase 2:
