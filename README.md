@@ -1,2 +1,6 @@
-# audio_detector
-Audio/Music detector using Shazam algorithm
+# Audio detector
+
+## What is this repository about?
+
+- It's about recreating Shazam's music detector algorithm
+- Improve coding skills
