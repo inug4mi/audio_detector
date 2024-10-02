@@ -2,8 +2,8 @@ TARGET = app
 
 all: $(TARGET)
 
-$(TARGET): ./src/scripts/main.cpp
-	g++ ./src/classes/audio_manager.cpp ./src/scripts/main.cpp -o ./src/scripts/$(TARGET)
+$(TARGET): ./main.cpp
+	g++ -Iheaders classes/audio_manager.cpp main.cpp -Iinclude -Llib -lsfml-graphics -lsfml-window -lsfml-audio -lsfml-system -o ./$(TARGET)
 
 run: $(TARGET)
-	./src/scripts/$(TARGET)
+	./$(TARGET)
